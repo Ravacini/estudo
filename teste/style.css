@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0%;
+}
+
+.menu_site li{
+   display: inline-block;
+   padding: 16px 13px;
+   float: left;
+}
+
+.menu_site li a{
+   color: white;
+ }
+
+.menu_site li:hover{
+    background-color: rgb(36, 36, 36);
+}
+
+.menu_site {
+    background-color: grey;
+    margin: 0%;
+    padding: 0%;
+}
+
+.clearfix{
+    content: "";
+    clear: both;
+    display: table;
+}
+.menu_conteudo ul{
+    list-style-type: none;
+    float: left;
+    padding: 15px;
+    width: 25%;
+}
+
+footer{
+    background-color: grey;
+    padding: 15px;
+    color: white;
+}
+
+
+.conteudo{
+    width: 75%;
+}
+
+.header h1{
+    text-align: center;
+    height: 150px;
+    background-color: dodgerblue;
+    padding: 15px;
+    color: white;
+}
